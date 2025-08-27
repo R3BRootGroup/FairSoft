@@ -143,7 +143,7 @@ ExternalProject_Add(faircmakemodules
 )
 
 list(APPEND packages boost)
-set(boost_version "83")
+set(boost_version "88")
 set(boost_features
   "cxxstd=${CMAKE_CXX_STANDARD}"
   "link=shared"
@@ -164,7 +164,7 @@ endif()
 
 ExternalProject_Add(boost
   URL "https://archives.boost.io/release/1.${boost_version}.0/source/boost_1_${boost_version}_0.tar.bz2"
-  URL_HASH SHA256=6478edfe2f3305127cffe8caf73ea0176c53769f4bf1585be237eb30798c3b8e
+  URL_HASH SHA256=46d9d2c06637b219270877c9e16155cbd015b6dc84349af064c088e9b5b12f7b
   BUILD_IN_SOURCE ON
   PATCH_COMMAND ${patch} -d libs/python -p1 -i "${CMAKE_SOURCE_DIR}/legacy/boost/support-numpy-2.patch"
   CONFIGURE_COMMAND "./bootstrap.sh"
