@@ -122,6 +122,7 @@ please contact us.
 | Debian     | x86_64 | 12    | GCC 12.2.0                             | 3.25.1 |
 | Debian     | x86_64 | 12    | GCC 12.2.0                             | 4.2.3 (bootstrap) |
 | Debian     | x86_64 | 13    | GCC 14.2.0                             | 3.31.6 |
+| Debian     | x86_64 | 14    | GCC 15.2.0                             | 4.3.2  |
 | Fedora     | x86_64 | 38    | GCC 13.2.1                             | 3.27.7 |
 | Fedora     | x86_64 | 38    | GCC 13.2.1                             | 4.2.3 (bootstrap) |
 | Fedora     | x86_64 | 40    | GCC 14.2.1                             | 3.30.8 |
@@ -135,12 +136,13 @@ please contact us.
 | Ubuntu     | x86_64 | 22.04 | GCC 11.4.0                             | 4.2.3 (bootstrap) |
 | Ubuntu     | x86_64 | 24.04 | GCC 13.3.0                             | 3.28.3 |
 | Ubuntu     | x86_64 | 26.04 | GCC 15.2.0                             | 3.31.6 |
+| AlmaLinux  | x86_64 | 9.7   | GCC 11.4.1                             | 3.28.3 |
 
 ## Included packages
 
 | **Package** | **Version** | **URL** |
 | --- | --- | --- |
-| boost            | 1.90.0       | https://www.boost.org/ |
+| boost            | 1.85.0       | https://www.boost.org/ |
 | clhep            | 2.4.7.2      | http://proj-clhep.web.cern.ch |
 | dds              | 3.16         | http://dds.gsi.de |
 | faircmakemodules | 1.0.0        | https://github.com/FairRootGroup/FairCMakeModules |
@@ -154,7 +156,7 @@ please contact us.
 | hepmc            | 2.06.11      | http://hepmc.web.cern.ch |
 | onnxruntime      | 1.24.1       | https://github.com/microsoft/onnxruntime |
 | pythia8          | 8317         | https://pythia.org/ |
-| root             | 6.32.16      | https://root.cern |
+| root             | 6.36.12      | https://root.cern |
 | vc               | 1.4.5        | https://github.com/VcDevel/Vc |
 | vecgeom          | 2.0.0        | https://gitlab.cern.ch/VecGeom/VecGeom |
 | vgm              | 5-4          | https://github.com/vmc-project/vgm |

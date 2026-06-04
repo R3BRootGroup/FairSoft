@@ -185,7 +185,7 @@ ExternalProject_Add(faircmakemodules
 )
 
 list(APPEND packages boost)
-set(boost_version "90")
+set(boost_version "85")
 set(boost_features
   "-d+2"
   "cxxstd=${CMAKE_CXX_STANDARD}"
@@ -212,7 +212,7 @@ endif()
 
 ExternalProject_Add(boost
   URL "https://archives.boost.io/release/1.${boost_version}.0/source/boost_1_${boost_version}_0.tar.bz2"
-  URL_HASH SHA256=49551aff3b22cbc5c5a9ed3dbc92f0e23ea50a0f7325b0d198b705e8ee3fc305
+  URL_HASH SHA256=7009fe1faa1697476bdc7027703a2badb84e849b7b0baad5086b087b971f8617
   BUILD_IN_SOURCE ON
   CONFIGURE_COMMAND "./bootstrap.sh"
     "--prefix=${CMAKE_INSTALL_PREFIX}"
@@ -422,7 +422,7 @@ ExternalProject_Add(geant4
 )
 
 list(APPEND packages root)
-set(root_version "6.32.16")
+set(root_version "6.36.12")
 string(REPLACE "\." "-" root_version_gittag ${root_version})
 if(APPLE AND CMAKE_VERSION VERSION_GREATER 3.15)
   set(root_builtin_glew "-Dbuiltin_glew=ON")
